@@ -1,0 +1,11 @@
+[package]
+name = "k3-http-sc"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+k3-wasm-sdk = { version = "*" }
+k3-wasm-macros = { version = "*", features = ["nightly"] }
+serde_json = "1.0.113"
